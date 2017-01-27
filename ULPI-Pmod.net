@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/kosyak/ULPI_PMOD/ULPI_PMOD.sch)
+    (source /home/kosyak/ULPI-Pmod/ULPI-Pmod.sch)
     (date "Чт 26 янв 2017 21:18:31")
     (tool "Eeschema (2017-01-20 revision 550a1ea4d)-master")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source ULPI_PMOD.sch)
+        (source ULPI-Pmod.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -72,7 +72,7 @@
     (comp (ref U1)
       (value STMPS2141)
       (footprint TO_SOT_Packages_SMD:SOT-23-5)
-      (libsource (lib ULPI_PMOD) (part STMPS2141))
+      (libsource (lib ULPI-Pmod) (part STMPS2141))
       (sheetpath (names /) (tstamps /))
       (tstamp 5885AD35))
     (comp (ref C5)
@@ -189,7 +189,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib ULPI_PMOD) (part STMPS2141)
+    (libpart (lib ULPI-Pmod) (part STMPS2141)
       (fields
         (field (name Reference) U)
         (field (name Value) STMPS2141))
@@ -256,8 +256,8 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name shield) (type passive)))))
   (libraries
-    (library (logical ULPI_PMOD)
-      (uri /home/kosyak/ULPI_PMOD/ULPI_PMOD.lib))
+    (library (logical ULPI-Pmod)
+      (uri /home/kosyak/ULPI-Pmod/ULPI-Pmod.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical microchip)
